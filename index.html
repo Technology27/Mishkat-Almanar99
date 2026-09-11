@@ -99,16 +99,19 @@
 
 <script>
 /* ===== Firebase v8 config (أدخل الإعدادات الخاصة بك إذا تغيّرت) ===== */
-var firebaseConfig = {
-  apiKey: "AIzaSyBA8y6Z3CzA0v3UkLG03eOowcCBSwVm4Hk",
-  authDomain: "mishkat-coffee.firebaseapp.com",
-databaseURL: "https://mishkat-coffee-dd485-default-rtdb.firebaseio.com/",  projectId: "mishkat-coffee",
-  storageBucket: "mishkat-coffee.firebasestorage.app",
-  messagingSenderId: "1044002917128",
-  appId: "1:1044002917128:web:947c927e9ff26538e17abd"
+const firebaseConfig = {
+  apiKey: "AIzaSyAQiImfmWU75TBeFhTXDtjCHIcGPJ0AAkk",
+  authDomain: "mishkat-coffee-dd485.firebaseapp.com",
+  databaseURL: "https://mishkat-coffee-dd485-default-rtdb.firebaseio.com",
+  projectId: "mishkat-coffee-dd485",
+  storageBucket: "mishkat-coffee-dd485.firebasestorage.app",
+  messagingSenderId: "129414629751",
+  appId: "1:129414629751:web:6c4b2f0e70c3750ed47972",
+  measurementId: "G-VF71MQXKXK"
 };
+
 firebase.initializeApp(firebaseConfig);
-var db = firebase.database();
+const db = firebase.database();
 /* ================================================================== */
 
 const drinks = [
